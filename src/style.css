@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.App{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(111, 110, 133) 0%, rgb(74, 141, 60) 35%, rgba(0,212,255,1) 100%);
+text-align: center;
+}
+.title{
+   font-family:"times new roman", times, serif;
+   background-color:#ababab;
+}
+.red{
+    color: rgb(0, 0, 0);
+}
+
+.image{
+    padding: 12px ;
+    margin: 6px;
+    width: 400px;
+    border-radius: 10%;
+   transition: 0.5s;
+}
+.image:hover{
+    transform: scale(1.05);
+}
